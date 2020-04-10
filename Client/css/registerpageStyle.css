@@ -1,0 +1,83 @@
+.navbar .navbar-nav {
+    margin:0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.transparent-navbar {
+    background-color: rgba(29, 33, 37, 0.90);
+}
+
+#registrationSection {
+    display: flex;
+    justify-content: center;
+}
+
+#registrationContainer {
+    margin-top: 80px;
+    width: 350px;
+    height: 600px;
+    padding: 30px;
+
+    border-radius: 15px;
+    background-color: rgba(29, 33, 37, 0.85);
+    color: white;
+    text-align: center;
+
+}
+
+#registrationContainer h4 {
+    margin-bottom: 20px;
+    color: deepskyblue;
+}
+
+
+#registrationContainer hr {
+    margin-top: 50px;
+    width: 280px;
+    border-top: 1px solid gray;
+}
+
+#registrationBody {
+    margin-top: 40px;
+}
+
+#registrationBody input, button {
+    margin-top: 15px;
+    width: 280px;
+    height: 35px;
+
+    border-radius: 15px;
+
+    outline: none;
+    transition: 0.25s;
+}
+
+#registrationBody input {
+    padding-left: 10px;
+    border: 1px solid deepskyblue;
+    background: rgba(29, 33, 37, 0.0);
+    color: white;
+
+}
+
+#registrationBody input:hover {
+    width: 290px;
+}
+
+#registrationButton:Hover {
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+}
+
+#toLoginFooter {
+    margin-top: 65px;
+}
+
+#registrationContainer a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+
+
