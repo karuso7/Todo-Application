@@ -65,13 +65,17 @@
     width: 290px;
 }
 
-#registrationButton:Hover {
+button:Hover {
     background-color: deepskyblue;
     border: 1px solid deepskyblue;
 }
 
 #toLoginFooter {
     margin-top: 65px;
+}
+
+#toRegistrationFooter{
+    margin-top: 230px;
 }
 
 #registrationContainer a {
