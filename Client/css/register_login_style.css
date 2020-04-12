@@ -47,10 +47,10 @@
     width: 280px;
     height: 35px;
 
-    border-radius: 15px;
-
+    -webkit-border-radius: 15px;
+    border: 1px;
     outline: none;
-    transition: 0.25s;
+    -webkit-transition-duration:  0.25s;
 }
 
 #registrationBody input {
@@ -75,12 +75,17 @@ button:Hover {
 }
 
 #toRegistrationFooter{
-    margin-top: 230px;
+    margin-top: 160px;
 }
 
 #registrationContainer a {
     text-decoration: none;
     color: deepskyblue;
+}
+
+#loginStatus {
+    margin-top:  50px;
+    color: red;
 }
 
 

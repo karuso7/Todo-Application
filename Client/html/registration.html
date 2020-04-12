@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Registrierung</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Import frameworks -->
@@ -32,20 +32,22 @@
     <section id="registrationSection">
         <div id="registrationContainer">
             <div id="registrationHeader">
-                <h4 id="registrationHeadline">Login</h4>
-
+                <h4 id="registrationHeadline">Registrierung</h4>
+                <p> Registriere dich, um all deine Aufgaben von überall aus zu organisieren!</p>
                 <hr>
             </div>
 
             <div id="registrationBody">
+                <input id="nameInput" class="inputFields" type="text" placeholder="Vorname">
+                <input id="lastNameInput" class="inputFields" type="text" placeholder="Nachname">
                 <input id="emailInput" class="inputFields" type="text" placeholder="E-Mail">
                 <input id="passwordInput" class="inputFields" type="password" placeholder="Passwort"><br>
-                <button id="loginButton">Anmelden</button>
+                <button id="registrationButton">Registrieren</button>
             </div>
 
-            <div id="toRegistrationFooter">
+            <div id="toLoginFooter">
                 <hr>
-                <p>Du hast noch kein Konto? <a href="../index.html"> Registrieren</a></p>
+                <p>Du hast schon ein Konto? <a href="../index.html"> Melde dich an</a></p>
             </div>
         </div>
 
