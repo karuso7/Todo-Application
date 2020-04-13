@@ -1,0 +1,8 @@
+### Nutzer-Login -> Daten an den Server übermitteln
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "userName": "admin",
+  "password": "admin"
+}

@@ -71,11 +71,11 @@ button:Hover {
 }
 
 #toLoginFooter {
-    margin-top: 65px;
+    margin-top: 50px;
 }
 
 #toRegistrationFooter{
-    margin-top: 160px;
+    margin-top: 130px;
 }
 
 #registrationContainer a {
@@ -84,7 +84,14 @@ button:Hover {
 }
 
 #loginStatus {
-    margin-top:  50px;
+    font-size: 10pt;
+    margin-top: 10px;
+    color: red;
+}
+
+#registrationStatus {
+    font-size: 10pt;
+    margin-top: 10px;
     color: red;
 }
 
