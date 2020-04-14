@@ -86,12 +86,20 @@ button:Hover {
 #loginStatus {
     font-size: 10pt;
     margin-top: 10px;
-    color: red;
+
 }
 
 #registrationStatus {
     font-size: 10pt;
     margin-top: 10px;
+    color: red;
+}
+
+.request-success {
+    color: green;
+}
+
+.request-error {
     color: red;
 }
 
