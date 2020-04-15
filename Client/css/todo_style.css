@@ -1,0 +1,54 @@
+.navbar .navbar-nav {
+    margin:0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.transparent-navbar {
+    background-color: rgba(29, 33, 37, 0.90);
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+
+#addTodoSection {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#addTodoButton {
+    display: block;
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    color: white;
+    transition: 0.25s;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+
+#addTodoButton:hover {
+    width: 50px;
+    height: 50px;
+    background-color: deepskyblue;
+}
+
+#addTodoWindow {
+    margin-top: 10%;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+
+#closeButton {
+    color: red;
+    transition: 0.25s;
+}

@@ -14,6 +14,7 @@ function handleLogin(): void {
             },
         success:(data) => {
                 renderResponseMessage(data.responseMessage, 0);
+                window.open("../html/todo_list.html");
             },
     });
 }
@@ -35,6 +36,7 @@ function renderResponseMessage(responseMessage: string, status: number) {
         loginStatus.removeClass("request-success");
         loginStatus.addClass("request-error");
         loginStatus.html(responseMessage);
+
     }
 }
 

@@ -12,6 +12,7 @@ function handleLogin() {
         },
         success: function (data) {
             renderResponseMessage(data.responseMessage, 0);
+            window.open("../html/todo_list.html");
         },
     });
 }
