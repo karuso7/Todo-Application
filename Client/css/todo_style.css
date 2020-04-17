@@ -43,12 +43,51 @@
     margin-top: 10%;
 }
 
-.modal-title {
-    text-align: center;
-}
 
+
+.modal-title {
+    margin-left: 33%;
+}
 
 #closeButton {
-    color: red;
     transition: 0.25s;
 }
+
+#closeButton:hover {
+    color: red;
+}
+
+
+#todoForm input {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 10px;
+    border: 1px solid darkgrey;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.25s;
+}
+
+#todoForm input:focus {
+    width: 98%;
+    border-color: deepskyblue;
+}
+
+#createTodoButton {
+    width: 35%;
+    transition: 0.25s;
+    display: block;
+    margin-left: 154px;
+    margin-top: 20px;
+}
+
+#createTodoButton:hover {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
