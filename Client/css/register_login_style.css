@@ -50,7 +50,7 @@
     -webkit-border-radius: 15px;
     border: 1px;
     outline: none;
-    -webkit-transition-duration:  0.25s;
+    transition:  0.25s;
 }
 
 #registrationBody input {
@@ -102,6 +102,8 @@ button:Hover {
 .request-error {
     color: red;
 }
+
+
 
 
 

@@ -91,3 +91,45 @@
     border-color: deepskyblue;
 }
 
+
+#todoSection {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 80px;
+}
+
+ #searchField{
+     display: none;
+     width: 250px;
+     margin-left: 10px;
+
+
+}
+
+#searchArea:hover > #searchField{
+    display: inline;
+    transition: width .35s ease-in-out;
+}
+
+
+
+#searchButton {
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+#searchButton:hover {
+    cursor: pointer;
+    color: deepskyblue;
+
+}
+
+
+
+
+
+
+
+
